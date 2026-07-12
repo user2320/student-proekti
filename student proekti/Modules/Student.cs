@@ -16,6 +16,9 @@ namespace proekti.Modules
         public char Grade { get; set; }
 
         public Student() { }
+
+
+
         public Student(string name, string lastName, int rollNumber, char grade)
         {
             Name = name;
